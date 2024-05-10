@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: 'poppines' sans-serif
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px;
+    background-color: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px
+}
+.container .card{
+    position: relative;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
